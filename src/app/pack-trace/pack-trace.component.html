@@ -1,0 +1,66 @@
+<div class="grid-container">
+
+  <div class="eles refresh-count">Refresh Count: {{ refreshCount }}</div>
+
+    <!-- rows -->
+        <!-- <div class="grid-item1">1</div>
+        <div class="grid-item2">2</div>
+        <div class="grid-item3">3</div>
+        <div class="grid-item4">4</div>
+        <div class="grid-item5">5</div>
+        <div class="grid-item6">6</div>
+        <div class="grid-item7">7</div>
+        <div class="grid-item8">8</div>
+        <div class="grid-item9">9</div>
+        <div class="grid-item10">10</div> -->
+
+     <!-- cols -->
+
+        <!-- <div class="grid-itemc1">2</div>
+        <div class="grid-itemc2">3</div>
+        <div class="grid-itemc3">4</div>
+        <div class="grid-itemc4">5</div>
+        <div class="grid-itemc5">6</div>
+        <div class="grid-itemc6">7</div>
+        <div class="grid-itemc7">8</div>
+        <div class="grid-itemc8">9</div>
+        <div class="grid-itemc9">10</div>
+        <div class="grid-itemc10">11</div>
+        <div class="grid-itemc11">12</div>
+        <div class="grid-itemc12">13</div>
+        <div class="grid-itemc13">14</div> -->
+
+
+  <div class="eles oms">OMS</div>
+  <div class="eles pos">Positions</div>
+  <div class="eles colec">Collection</div>
+  <div class="eles split">Splitter: {{ splitterCount }}</div>
+
+  <div class="eles mtm">MTM</div>
+  <div class="eles mtm-2">MTM-1</div>
+  <div class="eles mtm-1">MTM-2</div>
+  <div class="eles P1">P1: {{ p1Count }}</div>
+  <div class="eles P2">P2: {{ p2Count }}</div>
+  <div class="eles P3">P3: {{ p3Count }}</div>
+  <div class="eles P4">P4: {{ p4Count }}</div>
+  <div class="eles P5">P5: {{ p5Count }}</div>
+  <div class="eles aloc">Allocation</div>
+
+  <!-- lines -->
+  <div class="lines line1"></div>
+  <div class="lines line2"></div>
+  <div class="linesV line3"></div>
+  <div class="linesV line4"></div>
+
+  <div class="linesmtm line6"></div>
+  <div class="linesmtm2 line6"></div>
+  
+  <div class="linesr line7" [ngClass]="{'red-line': isP1Delayed, 'green-line': !isP1Delayed}"></div>
+  
+  <div class="linesr line8"></div>
+  <div class="linesr line9" [ngClass]="{'red-line': isP1Delayed, 'green-line': !isP1Delayed}"  ></div>
+  <div class="linesr line10"></div>
+  <div class="linesrup line11" [ngClass]="{'red-line': isP1Delayed, 'green-line': !isP1Delayed}" ></div>
+  <div class="lines line12"></div>
+  <div class="lines lastline"></div>
+</div>
