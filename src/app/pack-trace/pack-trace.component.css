@@ -314,6 +314,7 @@ grid-row: 2;
     border-right: none;
     border-bottom: none;
     animation: border-color-change 1s infinite;
+    border-top-left-radius: 20px;
 
 }
 
@@ -325,7 +326,7 @@ grid-row: 2;
     transform: translateY(-30px);
     border-right: none;
     border-top: none;
-
+    border-bottom-left-radius: 20px;
     animation: border-color-change 1s infinite;
 
    
@@ -342,6 +343,7 @@ grid-row: 2;
     height: 110px;
     width: 50px;
     animation: border-color-change 1s infinite;
+    border-bottom-right-radius:20px;
 
 }
 
@@ -356,6 +358,7 @@ height: 110px;
 width: 50px;
 transform: translate(50px);
 animation: border-color-change 1s infinite;
+border-bottom-left-radius: 20px;
 
 }
 
